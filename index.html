@@ -34,7 +34,7 @@
 <body>
 
     <!-- header section -->
-   <header class="border-2 container overflow-x-hidden lg:container mx-auto" hidden>
+   <header class="border-2 container overflow-x-hidden lg:container mx-auto">
     <nav class="flex items-center justify-between px-10">
       <div class="flex items-center space-x-4">
           <div class="bg-btn1-primary text-black w-12 h-12 rounded-full flex items-center justify-center">
@@ -121,68 +121,65 @@
     </header>
     <!-- main section -->
     <main>
-        <!-- about us section -->
-        <section class="border-1 container mx-auto mt-8 lg:container mx-auto mt-8" hidden>
-        
-                <div class="hero bg-base-200 my-4 space-y-4 p-6 flex flex-col lg:flex-row p-[30px] space-x-4">
-                  <div class="space-y-4">
-                    <div class="flex justify-center lg:justify-start">
-                      <button class="bg-white rounded-full w-36 p-2">
-                        <div class="flex justify-center">
-                          
-                        <div class="rounded-full">
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-black">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                          </svg>
-                         </div>
-                         <h1 class="text-xl font-semibold lg:text-base font-bold">About Us</h1>
-                        </div>
-                      </button>
-                    </div>
-                    <h1 class="text-3xl font-bold">We design thoughtful, liveable spaces</h1>
-                    <p class="text-lg">
-                      Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                      quasi. In deleniti eaque aut repudiandae et a id nisi.
-                    </p>
-                     <!-- comercial card-1 -->
-                    <div class="card bg-base-100 w-[100%] shadow-xl flex flex-row">
-                      <figure>
-                        <img class="w-[100%] h-24 lg:w-15 h-14 p-2"
-                          src="assets/commercial.png"
-                          alt="commercial" />
-                      </figure>
-                      <div class="card-body w-[100%]">
-                        <h2 class="card-title text-base font-extrabold">commercial</h2>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-    
+        <!-- We design thoughtful section -->
+        <section class="border-1 container mx-auto mt-8 lg:container mx-auto">
+          <div class="relative"> 
+           <div class="hidden lg:flex">
+            <img src="assets/Vector.png" alt="" class="absolute top-10 left-5 mt-4 mr-4">
+           </div> 
+          
+            <div class="hero bg-base-200 my-4 space-y-4 p-6 flex flex-col lg:flex-row space-x-4 p-[100px]">
+              <div class="space-y-4 flex-grow">
+                <div class="flex justify-center lg:justify-start">
+                  <button class="bg-white rounded-full w-36 p-2">
+                    <div class="flex justify-center">
+                      <div class="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-black">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
                       </div>
+                      <h1 class="text-xl font-semibold lg:text-base font-bold">About Us</h1>
                     </div>
-                      <!-- comercial card-2 -->
-                    <div class="card bg-base-100 w-[100%]  shadow-xl flex flex-row">
-                      <figure>
-                        <img class="w-[100%] h-24 lg:w-15 h-14 p-2"
-                          src="assets/commercial.png"
-                          alt="commercial" />
-                      </figure>
-                      <div class="card-body w-[100%]">
-                        <h2 class="card-title text-base font-extrabold ">commercial</h2>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-    
-                      </div>
-                    </div>
-                  </div>
-                    <div>
-                      
-                  <img class="mt-8"
-                  src="assets/Rectangle.png"
-                  class="max-w-sm rounded-lg shadow-2xl" />
-                    </div>
-                 
+                  </button>
                 </div>
+                <h1 class="text-3xl font-bold lg:text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
+                <p class="text-lg">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <!-- comercial card-1 -->
+                <div class="card bg-base-100 w-[335px] h-[154px] lg:w-auto lg:h-[100px] shadow-xl flex flex-row">
+                  <figure class="flex-shrink-0">
+                    <img class="w-24 h-24 lg:w-15 lg:h-14 p-2 object-cover" src="assets/commercial.png" alt="commercial" />
+                  </figure>
+                  <div class="card-body flex-grow p-2">
+                    <h2 class="card-title text-base font-extrabold">Commercial</h2>
+                    <p class="text-sm lg:text-base">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                
+                <!-- comercial card-2 -->
+                <div class="card bg-base-100 w-[335px] h-[154px] lg:w-auto lg:h-[100px] shadow-xl flex flex-row">
+                  <figure class="flex-shrink-0">
+                    <img class="w-24 h-24 lg:w-15 lg:h-14 p-2 object-cover" src="assets/commercial.png" alt="commercial" />
+                  </figure>
+                  <div class="card-body flex-grow p-2">
+                    <h2 class="card-title text-base font-extrabold">Commercial</h2>
+                    <p class="text-sm lg:text-base">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div>
+                <img src="assets/Rectangle.png" class="p-4 lg: max-w-sm rounded-lg shadow-2xl mt-8 p" alt="Decorative Image" />
+              </div>
+            </div>
+          </div>
+          
             
         </section>
         <!-- ours works process section -->
-        <section class="border-1 container mx-auto mt-8 lg:container mx-auto mt-8" hidden>
+        <section class="border-1 container mx-auto mt-8 lg:container mx-auto">
          <div class="flex flex-col bg-base-200 space-y-6 p-8 lg:p-24">
           <div class="flex flex-col items-center mt-3 ">
             <button class="bg-white rounded-full w-56 p-2">
@@ -284,19 +281,14 @@
               
                 </div>
               </div>
-              
-              
-        
-              <!-- Our Latest Portfolio card-2 -->
+               <!-- Our Latest Portfolio card-2 -->
               <div class="border-2 lg:col-span-4 bg-gray w-full h-full rounded-lg p-4">
                 <img src="assets/img2.png" alt="" class="w-full h-full object-cover rounded-lg">
               </div>
-        
               <!-- Our Latest Portfolio card-3 -->
               <div class="border-2 lg:col-span-3 bg-gray w-full h-full rounded-lg p-4">
                 <img src="assets/img3.png" alt="" class="w-full h-full object-cover rounded-lg">
               </div>
-        
               <!-- Our Latest Portfolio card-4 -->
               <div class="border-2 lg:col-span-6 rounded-lg overflow-hidden">
                 <div class="flex flex-col lg:flex-row p-4">
@@ -320,10 +312,6 @@
                   </div>
                 </div>
               </div>
-              
-              
-              
-        
               <!-- Our Latest Portfolio card-5 -->
               <div class="border-2 lg:col-span-3 w-full h-full rounded-lg p-4">
                 <img src="assets/img5.png" alt="" class="w-full h-full object-cover rounded-lg">
@@ -332,11 +320,8 @@
             </div>
           </div>
         </section>
-        
-        
-        
         <!-- lets discuss next process -->
-        <section class="border-1 container mx-auto mt-8 lg:container mx-auto mt-8" hidden>
+        <section class="border-1 container mx-auto mt-8 lg:container mx-auto">
           
           <div class="relative w-full h-full lg:h-auto px-4 sm:px-8 md:px-16 lg:px-[200px] py-4 sm:py-6 md:py-8 lg:py-[100px] box-border max-w-full overflow-hidden">
   
@@ -382,10 +367,9 @@
         </div>
           </div>
       </section>
-      
-    </main>
+   </main>
     <!-- footer section --> 
-      <footer class="footer footer-center bg-[#1C1C1C] text-base-content rounded p-10" hidden>
+      <footer class="footer footer-center bg-[#1C1C1C] text-base-content rounded p-10">
         <div class="flex flex-col items-center mt-3 ">
           <button class="bg-[#1C1C1C]  w-56 p-2">
             <div class="flex items-center bg-[#1C1C1C] gap-4">
